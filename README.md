@@ -76,7 +76,23 @@ jobs:
 
 ### 赞赏码(维护不易, 请赏杯茶水费)
 
-<div align=center>
-<img width="250" height="250" src="//gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-vx.JPG"/>
-<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-zfb.JPG"/>
-</div>
+![thanks-vx](http://gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-vx.JPG)
+![thanks-zfb](https://gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-zfb.JPG)
+
+### 特别感谢(排名不分先后)：
+
+- [@sazs34](https://github.com/sazs34)
+
+- [@lxk0301](https://github.com/lxk0301)
+
+- [@NobyDa](https://github.com/NobyDa)
+
+- [@chavyleung](https://github.com/chavyleung)
+
+- [@liuxiaoyucc](https://github.com/liuxiaoyucc)
+
+- [@Zero-S1](https://github.com/Zero-S1)
+
+- [@uniqueque](https://github.com/uniqueque)
+
+- [@nzw9314](https://github.com/nzw9314)
