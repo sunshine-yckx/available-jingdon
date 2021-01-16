@@ -101,4 +101,11 @@ jobs:
 
 `secrets` 等配置好后, 可以等脚本设定的时间到了自动运行, 也可以全部运行一次
 
-如需全部运行一次, 可以点击右上角 `Star`, 再点击 `Unstar`, 切换到 `Actions` 页签即可看到全部脚本都运行了
+如需全部运行一次, 可以点击自己仓库右上角 `Star`, 再点击 `Unstar`, 切换到 `Actions` 页签即可看到全部脚本都运行了
+
+## 赞赏码(维护不易, 请赏杯茶水费)
+
+<div align=center>
+<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-vx.JPG"/>
+<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-zfb.JPG"/>
+</div>
