@@ -1,3 +1,5 @@
+# **无法使用了!!!**
+
 # **不要 fork, 不要 fork, 不要 fork**
 
 # **已经有这么多大佬不再维护 GitHub 上的代码了, 你们为什么还要 fork 呢?**
@@ -25,8 +27,8 @@
 ## 赞赏码(维护不易, 请赏杯茶水费)
 
 <div align=center>
-<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-vx.JPG"/>
-<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-zfb.JPG"/>
+<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/thanks-vx.JPG"/>
+<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/thanks-zfb.JPG"/>
 </div>
 
 ## 特别感谢(排名不分先后):

@@ -106,6 +106,6 @@ jobs:
 ## 赞赏码(维护不易, 请赏杯茶水费)
 
 <div align=center>
-<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-vx.JPG"/>
-<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/icon/thanks-zfb.JPG"/>
+<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/thanks-vx.JPG"/>
+<img width="250" height="250" src="https://gitee.com/henrytsz/jd_scripts/raw/master/thanks-zfb.JPG"/>
 </div>
