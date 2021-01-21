@@ -1,7 +1,8 @@
 name: 自定义JOB执行
 
 on:
-    workflow_dispatch:    repository_dispatch:
+    workflow_dispatch:
+    repository_dispatch:
         types: schedule
 
 jobs:
