@@ -7,8 +7,6 @@ on:
     workflow_dispatch:
     schedule:
         - cron: "12 22 * * *"
-    watch:
-        types: [started]
     repository_dispatch:
         types: jd_bean_home
 
