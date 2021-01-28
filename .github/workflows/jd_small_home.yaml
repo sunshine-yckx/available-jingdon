@@ -6,7 +6,7 @@ name: 东东小窝
 on:
     workflow_dispatch:
     schedule:
-        - cron: "55 16 * * *"
+        - cron: "55 14 * * *"
     repository_dispatch:
         types: jd_small_home
 

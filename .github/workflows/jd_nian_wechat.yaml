@@ -6,7 +6,7 @@ name:  京东炸年兽小程序
 on:
     workflow_dispatch:
     schedule:
-        - cron: "50 8 * * *"
+        - cron: "50 7 * * *"
     repository_dispatch:
         types: jd_nian_wechat
 
