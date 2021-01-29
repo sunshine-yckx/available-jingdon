@@ -6,7 +6,7 @@ name:  京东神仙书院
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 23 * * *"
+        - cron: "0 23,2 * * *"
     repository_dispatch:
         types: jd_immortal
 
