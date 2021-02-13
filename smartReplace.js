@@ -208,16 +208,16 @@ async function downloader_jd() {
     )
   }
   if (remoteContent.indexOf('jdSuperMarketShareCodes') > 0) {
-      await download(
-        'https://gitee.com/henrytsz/jd_scripts/raw/master/jdSuperMarketShareCodes.js',
-        './jdSuperMarketShareCodes.js',
-        '京小超互助码'
-      )
-      await download(
-        'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
-        './utils/jdShareCodes.js',
-        '日志互助码'
-      )
+    await download(
+      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdSuperMarketShareCodes.js',
+      './jdSuperMarketShareCodes.js',
+      '京小超互助码'
+    )
+    await download(
+      'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
+      './utils/jdShareCodes.js',
+      '日志互助码'
+    )
   }
   if (remoteContent.indexOf('jdFactoryShareCodes') > 0) {
     await download(
@@ -284,8 +284,18 @@ async function downloader_user_agents() {
 async function download(url, path, target) {
   let response = await axios.get(url)
   let fcontent = response.data
-  await fs.writeFileSync(path, fcontent, 'utf8')
+  writeFileRecursive(path, fcontent)
   console.log(`下载${target}完毕`)
+}
+function writeFileRecursive(path, fcontent) {
+  let lastPath = path.substring(0, path.lastIndexOf('/'))
+  fs.mkdir(lastPath, { recursive: true }, err => {
+    if (err) {
+      console.log(err)
+      return
+    }
+    fs.writeFileSync(path, fcontent)
+  })
 }
 //#endregion
 
