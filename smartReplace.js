@@ -179,7 +179,7 @@ async function downloader_jd() {
     )
     await download(
       'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
-      './utils/jdShareCodes',
+      './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
@@ -191,7 +191,7 @@ async function downloader_jd() {
     )
     await download(
       'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
-      './utils/jdShareCodes',
+      './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
@@ -203,7 +203,7 @@ async function downloader_jd() {
     )
     await download(
       'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
-      './utils/jdShareCodes',
+      './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
@@ -215,7 +215,7 @@ async function downloader_jd() {
       )
       await download(
         'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
-        './utils/jdShareCodes',
+        './utils/jdShareCodes.js',
         '日志互助码'
       )
   }
@@ -227,7 +227,7 @@ async function downloader_jd() {
     )
     await download(
       'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
-      './utils/jdShareCodes',
+      './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
@@ -239,7 +239,7 @@ async function downloader_jd() {
     )
     await download(
       'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
-      './utils/jdShareCodes',
+      './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
