@@ -115,13 +115,13 @@ async function t() {
     if (!REMOTE_CONTENT) {
         changeFile();
     }
-    await exec("node executeOnce.js", { stdio: "inherit" });
+    await exec("node lhajh.js", { stdio: "inherit" });
 }
 async function changeFile() {
     let response = await axios.get(process.env.SYNCURL);
     let content = response.data;
     REMOTE_CONTENT = await smartReplace.inject(content);
-    await fs.writeFileSync("./executeOnce.js", content, "utf8");
+    await fs.writeFileSync("./lhajh.js", content, "utf8");
     console.log("替换变量完毕");
 }
 //#endregion
