@@ -64,7 +64,7 @@ jobs:
                   TRIGGER_KEYWORDS: ${{ secrets.TRIGGER_KEYWORDS }}
                   #CRONTAB
                   CRONTAB: ${{ '0 0 0,16 * * *' }} #定时在每天0和下午4点整执行一次
-                  SYNCURL: https://gitee.com/henrytsz/jd_scripts/raw/master/jd_joy_reward.js #此处填写你要执行的js
+                  SYNCURL: https://raw.githubusercontent.com/HenryTSZ/jsd/main/jd_joy_reward.js #此处填写你要执行的js
 
 
  */
@@ -115,13 +115,13 @@ async function t() {
     if (!REMOTE_CONTENT) {
         changeFile();
     }
-    await exec("node lhajh.js", { stdio: "inherit" });
+    await exec("node executeOnce.js", { stdio: "inherit" });
 }
 async function changeFile() {
     let response = await axios.get(process.env.SYNCURL);
     let content = response.data;
     REMOTE_CONTENT = await smartReplace.inject(content);
-    await fs.writeFileSync("./lhajh.js", content, "utf8");
+    await fs.writeFileSync("./executeOnce.js", content, "utf8");
     console.log("替换变量完毕");
 }
 //#endregion

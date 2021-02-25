@@ -7,7 +7,7 @@ async function changeFiele() {
   let response = await axios.get(process.env.SYNCURL)
   let content = response.data
   content = await smartReplace.inject(content)
-  await fs.writeFileSync('./lhajh.js', content, 'utf8')
+  await fs.writeFileSync('./executeOnce.js', content, 'utf8')
   console.log('替换变量完毕')
 }
 
@@ -27,7 +27,7 @@ async function start() {
 
   try {
     await changeFiele()
-    await exec('node lhajh.js', { stdio: 'inherit' })
+    await exec('node executeOnce.js', { stdio: 'inherit' })
   } catch (e) {
     console.log('执行异常:' + e)
   }

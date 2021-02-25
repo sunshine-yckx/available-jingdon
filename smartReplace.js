@@ -167,78 +167,78 @@ function batchReplace() {
 async function downloader_jd() {
   if (/require\(['"`]{1}.\/jdCookie.js['"`]{1}\)/.test(remoteContent))
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdCookie.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/jdCookie.js',
       './jdCookie.js',
       '京东Cookies'
     )
   if (remoteContent.indexOf('jdFruitShareCodes') > 0) {
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdFruitShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/jdFruitShareCodes.js',
       './jdFruitShareCodes.js',
       '东东农场互助码'
     )
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/utils/jdShareCodes.js',
       './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
   if (remoteContent.indexOf('jdPetShareCodes') > 0) {
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdPetShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/jdPetShareCodes.js',
       './jdPetShareCodes.js',
       '京东萌宠'
     )
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/utils/jdShareCodes.js',
       './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
   if (remoteContent.indexOf('jdPlantBeanShareCodes') > 0) {
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdPlantBeanShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/jdPlantBeanShareCodes.js',
       './jdPlantBeanShareCodes.js',
       '种豆得豆互助码'
     )
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/utils/jdShareCodes.js',
       './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
   if (remoteContent.indexOf('jdSuperMarketShareCodes') > 0) {
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdSuperMarketShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/jdSuperMarketShareCodes.js',
       './jdSuperMarketShareCodes.js',
       '京小超互助码'
     )
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/utils/jdShareCodes.js',
       './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
   if (remoteContent.indexOf('jdFactoryShareCodes') > 0) {
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdFactoryShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/jdFactoryShareCodes.js',
       './jdFactoryShareCodes.js',
       '东东工厂互助码'
     )
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/utils/jdShareCodes.js',
       './utils/jdShareCodes.js',
       '日志互助码'
     )
   }
   if (remoteContent.indexOf('jdDreamFactoryShareCodes') > 0) {
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdDreamFactoryShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/jdDreamFactoryShareCodes.js',
       './jdDreamFactoryShareCodes.js',
       '京喜工厂互助码'
     )
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/utils/jdShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/utils/jdShareCodes.js',
       './utils/jdShareCodes.js',
       '日志互助码'
     )
@@ -248,17 +248,17 @@ async function downloader_jd() {
     remoteContent.indexOf("new Env('京喜财富岛')") > 0
   ) {
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdJxncTokens.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/jdJxncTokens.js',
       './jdJxncTokens.js',
       '京喜农场Token'
     )
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/jdJxncShareCodes.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/jdJxncShareCodes.js',
       './jdJxncShareCodes.js',
       '京喜农场分享码'
     )
     await download(
-      'https://gitee.com/henrytsz/jd_scripts/raw/master/USER_AGENTS.js',
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/USER_AGENTS.js',
       './USER_AGENTS.js',
       'USER_AGENTS'
     )
@@ -267,7 +267,7 @@ async function downloader_jd() {
 
 async function downloader_notify() {
   await download(
-    'https://gitee.com/henrytsz/jd_scripts/raw/master/sendNotify.js',
+    'https://raw.githubusercontent.com/HenryTSZ/jsd/main/sendNotify.js',
     './sendNotify.js',
     '统一通知'
   )
@@ -275,7 +275,7 @@ async function downloader_notify() {
 
 async function downloader_user_agents() {
   await download(
-    'https://gitee.com/henrytsz/jd_scripts/raw/master/USER_AGENTS.js',
+    'https://raw.githubusercontent.com/HenryTSZ/jsd/main/USER_AGENTS.js',
     './USER_AGENTS.js',
     '云端UA'
   )
