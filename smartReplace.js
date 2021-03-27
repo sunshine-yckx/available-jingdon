@@ -263,6 +263,13 @@ async function downloader_jd() {
       'USER_AGENTS'
     )
   }
+  if (remoteContent.indexOf('京东极速版') > 0) {
+    await download(
+      'https://raw.githubusercontent.com/HenryTSZ/jsd/main/JS_USER_AGENTS.js',
+      './JS_USER_AGENTS.js',
+      '极速版 USER_AGENT'
+    )
+  }
 }
 
 async function downloader_notify() {
